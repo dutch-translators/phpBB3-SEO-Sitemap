@@ -22,14 +22,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'SEOMAP'						=> 'SEO Sitemap',
-	'SEOMAP_VERSION'				=> 'Extensie versie: %s. Ga naar de <a style="font-weight: bold;" href="https://www.phpbb.com/customise/db/extension/seo_sitemap/" onclick="window.open(this.href);return false;">extensie pagina</a> voor de meest recente versie en voor support.',
-	'SEOMAP_EXPLAIN'				=> 'Houd er rekening mee dat het gebruik van de prioriteit en veranderingsfrequentie instellingen een aantal positieve resultaten voor je kan opleveren, het is aangeraden om ze samen te gebruiken, denk vooraf na welke paginas het belangrijkst zijn alvorens je instellingen gaat veranderen. Als je het niet weet of niet zeker bent, is het beter deze opties uit te schakelen. <a href="http://www.sitemaps.org/protocol.html#xmlTagDefinitions" onclick="window.open(this.href);return false;">klik hier</a> voor meer informatie over de prioriteit en veranderingsfrequentie. <br /> Stel 0 in als je de prioriteit wilt uitschakelen.',
+	'SEOMAP_VERSION'				=> 'SEO Sitemap versie: %s. Voor de meest recente versie en support ga je naar de <a style="font-weight: bold;" href="https://www.phpbb.com/customise/db/extension/seo_sitemap/" onclick="window.open(this.href);return false;">extensie pagina</a>.',
+	'SEOMAP_EXPLAIN'				=> 'Houd er rekening mee dat het gebruik van de prioriteit en veranderingsfrequentie instellingen een aantal positieve resultaten voor je kan opleveren, het is aangeraden om ze samen te gebruiken, denk vooraf na welke paginas het belangrijkst zijn alvorens je instellingen gaat veranderen. Als je het niet weet of niet zeker bent, is het beter deze opties uit te schakelen. <a href="http://www.sitemaps.org/protocol.html#xmlTagDefinitions" onclick="window.open(this.href);return false;">klik hier</a> voor meer informatie over de prioriteit en veranderingsfrequentie. Stel 0 in als je de prioriteit wilt uitschakelen.',
 	'SEOMAP_SETTINGS'				=> 'SEO Sitemap Instellingen',
 	'SEOMAP_SETTINGS_UPDATED'		=> '<strong>SEO Sitemap Instellingen Bijgewerkt</strong>',
 	'SEOMAP_SAVED'					=> 'Sitemap Instellingen succesvol bijgewerkt.',
 	'SEOMAP_EXCLUDED'				=> 'Deze forums uitsluiten',
-	'SEOMAP_EXCLUDED_EXPLAIN'		=> 'De forumonderdelen(met alle onderwerpen die erin staan) die hier geselecteerd zijn, zullen niet worden weergegeven in de sitemap.<br /><strong>Let op:</strong> Categorieën en forumonderdelen zonder onderwerpen worden standaard uitgeslote.',
-	'SEOMAP_CACHE_TIME'				=> 'Cache time',
+	'SEOMAP_EXCLUDED_EXPLAIN'		=> 'De forumonderdelen(met alle onderwerpen die erin staan) die hier geselecteerd zijn, zullen niet worden weergegeven in de sitemap.<br /><strong>Let op:</strong> Categorieën en forumonderdelen zonder onderwerpen worden standaard uitgesloten.',
+	'SEOMAP_CACHE_TIME'				=> 'Cache tijd',
 	'SEOMAP_CACHE_TIME_EXPLAIN'		=> 'Om de serverprestatie te reduceren, worden de sitemaps tijdelijk opgeslagen in de cache. Na het aantal uren dat hier is ingesteld worden de sitemaps opnieuw aangemaakt. Stel hier het aantal uren in dat de sitemaps opgeslagen moeten worden in de cache, stel in op 0 als je deze optie wilt uitschakelen.',
 	'SEOMAP_URL'					=> 'Sitemap URL: <a href="%s" onclick="window.open(this.href);return false;">%s</a>',
 	'SEOMAP_URL_COUNT'				=> 'Het aantal links in de sitemap: %s',
@@ -59,6 +59,6 @@ $lang = array_merge($lang, array(
 
 // Sync section
 	'SEOMAP_SYNC_COMPLETE' 			=> 'Synchronisatie succesvol afgerond <br /><br /><a style="font-weight: bold;" href="%s">&laquo; Ga terug naar de instellingen</a>',
-	'SEOMAP_SYNC_PROCESS'			=> '<strong>Sync in progress. Do not close this page and do not interrupt script before it finishes all the actions.</strong><br /><br /><strong>%1$s%%</strong> finished. Processed <strong>%2$s</strong> of all posts. Total posts: <strong>%3$s</strong>.',
+	'SEOMAP_SYNC_PROCESS'			=> '<strong>Sync in behandeling. Sluit deze pagina niet en onbreek het script niet alvorens het klaar is met alle acties.</strong><br /><br /><strong>%1$s%%</strong> finished.<strong>%2$s</strong> van alle berichten verwerkt. Totaal aantal berichten: <strong>%3$s</strong>.',
 	'SEOMAP_SYNC_REQ' 				=> 'Het is aangeraden om de wijzigingsdatums van berichten te synchroniseren voordat je de sitemap gaat gebruiken. Dit is nodig om de laatste wijzigingsdatum van de forum paginas te genereren. <a style="font-weight: bold;" href="%s">klik hier om te synchroniseren</a>.',
 ));
